@@ -1,7 +1,7 @@
 Acceptance criteria
 
-ASCII                                   ->  AsCiI
-42                                      ->  42
+ASCII                                   ->  AsCiI  +
+42                                      ->  42  +
 #include <iostream>                     ->  #InClUdE <iOsTrEaM>
 LEAVE_my_symbols#!#&^%_ALONE!!!         ->  lEaVe_My_SyMbOlS#!#&^%_aLoNe!!!
 PPCG Rocks!!! For realz.                ->  PpCg RoCkS!!! fOr ReAlZ.
