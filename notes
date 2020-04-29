@@ -8,3 +8,16 @@ PPCG Rocks!!! For realz.                ->  PpCg RoCkS!!! fOr ReAlZ.
 This example will start with lowercase  ->  tHiS eXaMpLe WiLl StArT wItH lOwErCaSe
 This example will start with uppercase  ->  ThIs ExAmPlE wIlL sTaRt WiTh UpPeRcAsE
 A1B2                                    ->  A1b2
+
+
+Potential solution:
+
+glue index to split characters in tuplet or string form - eg, 'hello' - > ['h0', 'e1', 'l2', 'l3', 'o4'] ( or tuplet form, [['h',0], ['e',1]...])
+
+sort into two arrays, one with non-alphabet characters. 
+
+apply casing to the alphabet array.
+
+Join arrays and sort
+
+rejoin characters
