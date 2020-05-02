@@ -16,7 +16,8 @@ def alternating_case(input)
     el[1].upcase! if sortables.index(el).even?
   end
   result = sortables + irrelevants
-  result.sort
+  result.sort!
+  result.map { |el| el[1] }.join
 end
 
 
