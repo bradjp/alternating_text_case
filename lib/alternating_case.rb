@@ -13,9 +13,12 @@ def alternating_case(input)
     end
   end
   sortables.each do |el|
-    el[0].upcase! if el[1].even?
+    el[0].upcase! if sortables.index(el).even?
   end
-  alternated_input
+  print sortables
+  puts "\n"
+  puts '------'
+  print irrelevants
 end
 
 
