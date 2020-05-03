@@ -10,4 +10,5 @@ ASCII                                   ->  AsCiI  +
 LEAVE_my_symbols#!#&^%_ALONE!!!         ->  LeAvE_mY_sYmBoLs#!#&^%_AlOnE!!!
 PPCG Rocks!!! For realz.                ->  PpCg RoCkS!!! fOr ReAlZ.
 This example will start with uppercase  ->  ThIs ExAmPlE wIlL sTaRt WiTh UpPeRcAsE
+This example will start with lowercase  ->  tHiS eXaMpLe WiLl StArT wItH lOwErCaSe
 A1B2                                    ->  A1b2

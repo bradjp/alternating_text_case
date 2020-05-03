@@ -20,3 +20,6 @@ apply casing to the alphabet array.
 Join arrays and sort
 
 rejoin characters
+
+
+Add inverted option (first character is lowercase)

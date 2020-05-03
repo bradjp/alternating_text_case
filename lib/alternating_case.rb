@@ -1,4 +1,4 @@
-def alternating_case(input)
+def alternating_case(input, first_case='Upper')
   alternated_input = []
   input.split('').each_with_index do |char, index|
     alternated_input << [index, char.downcase]
@@ -12,8 +12,14 @@ def alternating_case(input)
       irrelevants << el
     end
   end
-  sortables.each do |el|
-    el[1].upcase! if sortables.index(el).even?
+  if first_case == 'Lower'
+    sortables.each do |el|
+      el[1].upcase! unless sortables.index(el).even?
+    end
+  else
+    sortables.each do |el|
+      el[1].upcase! if sortables.index(el).even?
+    end
   end
   result = sortables + irrelevants
   result.sort!
